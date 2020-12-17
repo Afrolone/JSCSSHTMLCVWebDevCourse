@@ -2,6 +2,12 @@ html * {
     font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
 }
 
+body {
+    background-image: url(wall.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 .CVMain {
     width: 90%;
 	max-width: 800px;
