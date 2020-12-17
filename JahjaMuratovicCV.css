@@ -4,17 +4,18 @@ html * {
 
 body {
     background-image: url(wall.jpg);
-	background-size: cover;
-	background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .CVMain {
     width: 90%;
-	max-width: 800px;
+    max-width: 800px;
     margin: 30px auto;
     border-radius: 25px;
     border: 2px solid black;
-    padding: 20px; 
+    padding: 20px;
+    background-color: white;
 }
 
 .profileImage {
