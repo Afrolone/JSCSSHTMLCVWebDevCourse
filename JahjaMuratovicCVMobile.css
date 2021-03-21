@@ -1,9 +1,3 @@
-@media screen and (max-device-width: 600px) {
-    .profileImage {
-      float: center;
-    }
-  }
-
 html * {
     font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
 }
@@ -18,21 +12,28 @@ html * {
     --cv-main-bacground-color: white;
     --cv-main-padding: 20px;
 
+    /* .profileImage */
+    --profile-image-width-height: 250px;
+
     /* .nameSurnameDiv */
-    --name-surname-div-font-size: 22px;
+    --name-surname-div-font-size: 30px;
 
     /* .contactInfo */
-    --contact-info-font-size: 18px;
+    --contact-info-font-size: 30px;
 
     /* .infoBr */
-    --info-br-visibility: none;
+    --info-br-visibility: inherit;
+
 
     /* .infoIcon */
-    --info-icon-width-height: 55px;
+    --info-icon-width-height: 50px;
     --info-icon-margin: 16px;
 
     /* .shortInfo */
-    --short-info-font-size: 19px;
+    --short-info-font-size: 35px;
+
+    /* .mainContent */
+    --main-content-font-size: 30px;
 
     /* .button */
     --button-background-color: white;
@@ -73,20 +74,22 @@ body {
 
 .profileImage {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    float: right;
-    width: 300px; 
-    height: 300px;
+    margin-left: inherit;
+    margin-right: inherit;
+    margin-top: auto;
+    margin-bottom: auto;
+    float: center;
+    width: var(--profile-image-width-height); 
+    height: var(--profile-image-width-height);
 }
 
 .nameSurnameDiv {
-    text-align: left;
+    text-align: center;
     font-size: var(--name-surname-div-font-size);
 }
 
 .contactInfo {
-    text-align: left;
+    text-align: center;
     font-size: var(--contact-info-font-size);
 }
 
@@ -100,6 +103,10 @@ body {
 .shortInfo {
     text-align: center;
     font-size: var(--short-info-font-size);
+}
+
+.mainContent {
+    font-size: var(--main-content-font-size);
 }
 
 .buttons {
