@@ -33,7 +33,7 @@ html * {
     --short-info-font-size: 30px;
 
     /* .mainContent */
-    --main-content-font-size: 15px;
+    --main-content-font-size: 16px;
 
     /* .button */
     --button-background-color: white;
@@ -56,6 +56,7 @@ body {
     background-image: url(wall.jpg);
     background-size: cover;
     background-attachment: fixed;
+    min-height: 100%;
 }
 
 .CVMain {
