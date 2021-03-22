@@ -4,13 +4,13 @@ html * {
 
 :root {
     /* .CVMain */
-    --cv-main-max-width: 800px;
+    /*--cv-main-max-width: 800px;*/
     --cv-main-width: 90%;
-    --cv-main-margin: 30px auto;
+    --cv-main-margin: 20px auto;
     --cv-main-border-radius: 25px;
     --cv-main-border: 2px solid black;
     --cv-main-bacground-color: white;
-    --cv-main-padding: 20px;
+    --cv-main-padding: 10px;
 
     /* .profileImage */
     --profile-image-width-height: 250px;
@@ -33,7 +33,7 @@ html * {
     --short-info-font-size: 30px;
 
     /* .mainContent */
-    --main-content-font-size: 18px;
+    --main-content-font-size: 15px;
 
     /* .button */
     --button-background-color: white;
@@ -60,7 +60,7 @@ body {
 
 .CVMain {
     width: var(--cv-main-width);
-    max-width: var(--cv-main-max-width);
+    /*max-width: var(--cv-main-max-width);*/
     margin: var(--cv-main-margin);
     border-radius: var(--cv-main-border-radius);
     border: var(--cv-main-border);
