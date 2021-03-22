@@ -16,10 +16,10 @@ html * {
     --profile-image-width-height: 250px;
 
     /* .nameSurnameDiv */
-    --name-surname-div-font-size: 30px;
+    --name-surname-div-font-size: 28px;
 
     /* .contactInfo */
-    --contact-info-font-size: 30px;
+    --contact-info-font-size: 20px;
 
     /* .infoBr */
     --info-br-visibility: inherit;
@@ -30,10 +30,10 @@ html * {
     --info-icon-margin: 16px;
 
     /* .shortInfo */
-    --short-info-font-size: 35px;
+    --short-info-font-size: 30px;
 
     /* .mainContent */
-    --main-content-font-size: 30px;
+    --main-content-font-size: 18px;
 
     /* .button */
     --button-background-color: white;
