@@ -75,14 +75,17 @@ html * {
     /* .button */
     --button-hover-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.1), 0 17px 50px 0 rgba(0, 0, 0, 0.05);
     --button-hover-opacity: 1;
-    
+
 }
 
 body {
     background-image: url(wall.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: var(--background-height);
+    background-attachment: fixed;  
+    height: var(--background-height);
+    will-change: transform;
 }
+
 
 .CVMain {
     width: var(--cv-main-width);
